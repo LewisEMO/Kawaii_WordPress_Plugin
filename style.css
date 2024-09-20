@@ -1,0 +1,29 @@
+body {
+    background-color: #ffe4e1; /*Couleur rose pastel */
+    font-family: 'Comic Sans MS', cursive;
+    background-image: url('https://i.pinimg.com/originals/30/68/d4/3068d4c3a69001bcd969f2fb11dada15.png'); /* Image Mignonne */
+    background-position: bottom right; /* Position en bas à droite */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    background-size: 150px 150px; /* Taille de l'image */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ff69b4; /* Rose vif */
+}
+
+a {
+    color: #ff1493; /* Rose foncé */
+}
+
+button, input[type="submit"] {
+    background-color: #ffb6c1; /* Rose clair */
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #ff69b4; /* Rose vif */
+}
